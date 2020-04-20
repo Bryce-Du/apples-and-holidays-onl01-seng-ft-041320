@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
       final_holiday = capital_holiday.join(" ")
       puts final_holiday
       
-      puts "  " + capital_holiday.join(" ") + ": " + supplies.join(", ")
+      puts "  " + final_holiday + ": " + supplies.join(", ")
     end
   end
 end
